@@ -106,7 +106,7 @@ We set the following parameters to test the model found in Operations Management
 
 **📍 Fluctuation Beyond the EOQ:** Beyond the EOQ, there's an observable increase in total inventory costs. This might indicate inefficiency in managing inventory, leading to increased costs or excess inventory.
 
-***The EOQ formula assumes constant and known demand, constant unit costs, and no constraints on order quantity. **Real-world situations** often have **fluctuations in demand**, varying costs (such as volume discounts), or limitations on order quantities due to storage capacity or supplier constraints.
+*The EOQ formula assumes constant and known demand, constant unit costs, and no constraints on order quantity. **Real-world situations** often have **fluctuations in demand**, varying costs (such as volume discounts), or limitations on order quantities due to storage capacity or supplier constraints.*
 
 ## References
 
