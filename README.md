@@ -94,7 +94,7 @@ We set the following parameters to test the model found in Operations Management
 | restock_amounts_to_try | [100, 110, 120, 130, 140, 150, 160, 170, 180, 200] |
 
 
-![Results](images/eoq_results.png)
+![Results](/eoq_results.png)
 
 **📍 Total Inventory Cost Fluctuations:** As the restock amount increases from 100 to 160, there's a significant drop in the total inventory cost, indicating an optimization point. However, beyond 160, the costs begin to rise again.
 
