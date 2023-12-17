@@ -78,7 +78,23 @@ The script provides insights into inventory optimization strategies:
 
 📍 Dynamic Restocking: Consider adjusting restock amounts based on changing demand patterns to minimize stockouts and holding costs.
 
-## Interpeting the Results
+## Running the model & Interpeting the Results
+
+We set the following parameters to test the model found in Operations Management Book Inventory Problems :
+
+| Parameter              | Value        |
+|------------------------|--------------|
+| initial_inventory      | 160          |
+| demand_mean            | 9            |
+| demand_stddev          | 0.97         |
+| lead_time              | 14           |
+| simulation_period      | 365          |
+| holding_cost_per_unit  | 0.035        |
+| ordering_cost          | 50           |
+| restock_amounts_to_try | [100, 110, 120, 130, 140, 150, 160, 170, 180, 200] |
+
+
+![Results](images/eoq_results.png)
 
 **📍 Total Inventory Cost Fluctuations:** As the restock amount increases from 100 to 160, there's a significant drop in the total inventory cost, indicating an optimization point. However, beyond 160, the costs begin to rise again.
 
@@ -91,4 +107,15 @@ The script provides insights into inventory optimization strategies:
 **📍 Fluctuation Beyond the EOQ:** Beyond the EOQ, there's an observable increase in total inventory costs. This might indicate inefficiency in managing inventory, leading to increased costs or excess inventory.
 
 ***The EOQ formula assumes constant and known demand, constant unit costs, and no constraints on order quantity. **Real-world situations** often have **fluctuations in demand**, varying costs (such as volume discounts), or limitations on order quantities due to storage capacity or supplier constraints.
+
+## References
+
+- *[Wikipedia - Economic Order Quantity](https://en.wikipedia.org/wiki/Economic_order_quantity)*
+  
+- *[Investopedia - Economic Order Quantity (EOQ)](https://www.investopedia.com/terms/e/economicorderquantity.asp)*
+  
+- *[GitHub Repository - EOQ Calculator](https://github.com/exampleuser/eoq-calculator)*
+
+- Operations Management: Strategy and Analysis" by Lee J. Krajewski, Larry Ritzman, and Julia Berrisford
+
 
